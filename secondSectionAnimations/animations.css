@@ -1,0 +1,82 @@
+@keyframes title {
+  0% {
+    scale: 2;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
+@keyframes slideFromLeft {
+  0% {
+    opacity: 0;
+    left: 10px;
+  }
+  100% {
+    opacity: 1;
+    left: 250px;
+  }
+}
+@keyframes slideFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  20% {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+@keyframes slideFromLeft2 {
+  0% {
+    opacity: 0;
+    left: -200px;
+  }
+  100% {
+    opacity: 1;
+    left: 10px;
+  }
+}
+@keyframes slideFromRight2h {
+  0% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+  20% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-55%);
+  }
+}
+@keyframes slideFromRight2t {
+  0% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+  20% {
+    opacity: 0;
+    transform: translateX(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-55%);
+  }
+}
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-70%);
+  }
+}/*# sourceMappingURL=animations.css.map */

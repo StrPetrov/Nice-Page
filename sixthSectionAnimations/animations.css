@@ -1,0 +1,32 @@
+@keyframes boxRotate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}
+@keyframes scaling {
+  0% {
+    scale: 0;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
+@keyframes rightTextBox {
+  0% {
+    scale: 0.5;
+    opacity: 0;
+    right: 5%;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+    right: 20%;
+  }
+}/*# sourceMappingURL=animations.css.map */

@@ -1,0 +1,67 @@
+@keyframes pinkColored {
+    0% {
+        opacity: 0;
+        scale: 0.3;
+    }
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes largeAnglePipe {
+    0% {
+        opacity: 0;
+        left: 50px;
+    }
+    100% {
+        opacity: 1;
+        left: 260px;
+    }
+}
+
+@keyframes smallAnglePipe {
+    0% {
+        transform: rotate(260deg);
+        opacity: 0;
+    }
+    100% {
+        transform: rotate(-150deg);
+        opacity: 1;
+    }
+}
+
+@keyframes scalingCircle {
+    0% {
+        scale: 0;
+        opacity: 0;
+    }
+    100% {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+@keyframes pack {
+    0% {
+        top: 400px;
+        opacity: 0;
+    }
+    100% {
+        top: 200px;
+        opacity: 1;
+    }
+}
+
+@keyframes final {
+    0% {
+        left: 0px;
+        opacity: 0;
+        scale: 1;
+    }
+    100% {
+        left: 300px;
+        opacity: 1;
+        scale: 0.8;
+    }
+}

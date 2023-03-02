@@ -1,0 +1,58 @@
+@keyframes multicolorLargeCircle {
+  0% {
+    opacity: 0;
+    scale: 1;
+    left: 100px;
+  }
+  100% {
+    opacity: 1;
+    scale: 0.75;
+    left: 450px;
+  }
+}
+@keyframes diagonal {
+  0% {
+    left: 70%;
+    top: -100px;
+    opacity: 0;
+  }
+  100% {
+    left: 55%;
+    top: 170px;
+    opacity: 1;
+  }
+}
+@keyframes textBox {
+  0% {
+    opacity: 0;
+    right: 0;
+  }
+  100% {
+    opacity: 1;
+    right: 280px;
+  }
+}
+@keyframes fifthSectionSquare {
+  0% {
+    opacity: 0;
+    scale: 1.5;
+    transform: rotate(0.8turn);
+    left: 50px;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+    transform: rotate(0turn);
+    left: 400px;
+  }
+}
+@keyframes fifthSectionLikeDna {
+  0% {
+    opacity: 0;
+    bottom: -100px;
+  }
+  100% {
+    opacity: 1;
+    bottom: 50px;
+  }
+}/*# sourceMappingURL=animations.css.map */

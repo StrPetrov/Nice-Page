@@ -1,0 +1,68 @@
+@keyframes girlPhotoToSlide {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+@keyframes underlayGirl {
+  0% {
+    opacity: 0;
+    scale: 0;
+  }
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
+@keyframes largeCircle {
+  0% {
+    opacity: 0;
+    right: -250px;
+  }
+  100% {
+    opacity: 1;
+    right: 50px;
+  }
+}
+@keyframes smallCircle {
+  0% {
+    opacity: 0;
+    right: -250px;
+  }
+  100% {
+    opacity: 1;
+    right: 150px;
+  }
+}
+@keyframes card13 {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  50% {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@keyframes card24 {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}/*# sourceMappingURL=animations.css.map */

@@ -1,0 +1,74 @@
+@keyframes multicolorCircle {
+    0% {
+        opacity: 0;
+        left: 150px;
+    }
+    100% {
+        opacity: 1;
+        left: 350px;
+    }
+}
+
+@keyframes square {
+    0% {
+        opacity: 0;
+        scale: 1.5;
+    }
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes likeDna {
+    0% {
+        opacity: 0;
+        scale: 2;
+        right: 7%;
+    }
+    50% {
+        opacity: 0;
+        scale: 2;
+        right: 7%;
+    }
+    100% {
+        opacity: 1;
+        scale: 1;
+        right: 22%;
+    }
+}
+
+@keyframes digitalDesign {
+    0% {
+        opacity: 0;
+        left: 100px;
+    }
+    100% {
+        opacity: 1;
+        left: 340px;
+    }
+}
+
+@keyframes anglePipe {
+    0% {
+        opacity: 0;
+        transform: rotate(0.6turn);
+    }
+    50% {
+        opacity: 0;
+        transform: rotate(0.6turn);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(0turn);
+    }
+}
+
+@keyframes donut {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
