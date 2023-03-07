@@ -1,0 +1,73 @@
+@keyframes girlPhotoToSlide_mobile {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes underlayGirl_mobile {
+    0% {
+        opacity: 0;
+        scale: 0;
+    }
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes largeCircle_mobile {
+    0% {
+        opacity: 0;
+        right: -250px;
+    }
+    100% {
+        opacity: 1;
+        right: 40px;
+    }
+}
+
+@keyframes smallCircle_mobile {
+    0% {
+        opacity: 0;
+        right: 60px;
+    }
+    100% {
+        opacity: 1;
+        right: 320px;
+    }
+}
+
+@keyframes card13_mobile {
+    0% {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes card24_mobile {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,65 @@
+@keyframes pinkColored_mobile {
+    0% {
+        scale: 0.3;
+        opacity: 0;
+    }
+    100% {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+@keyframes largeAnglePipe_mobile {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes pack_mobile {
+    0% {
+        opacity: 0;
+        top: 250px;
+    }
+    100% {
+        opacity: 1;
+        top: 50px;
+    }
+}
+
+@keyframes final_mobile {
+    0% {
+        left: -500px;
+        opacity: 0;
+    }
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes scalingCircle_mobile {
+    0% {
+        opacity: 0;
+        scale: 0;
+    }
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes smallAnglePipe_mobile {
+    0% {
+        opacity: 0;
+        transform: rotate(260deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(-150deg);
+    }
+}

@@ -1,0 +1,33 @@
+@keyframes modalOverlay {
+  0% {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+@keyframes modalLeftDiv {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes modalOverlayReverse {
+  0% {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.1);
+    visibility: hidden;
+  }
+}
+@keyframes modalLeftDivReverse {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}/*# sourceMappingURL=animations.css.map */

@@ -1,0 +1,66 @@
+@keyframes left_top_img_mobile {
+  0% {
+    left: -80px;
+    opacity: 0;
+    scale: 0;
+  }
+  100% {
+    left: 50px;
+    opacity: 1;
+    scale: 1;
+  }
+}
+@keyframes left_bot_img_mobile {
+  0% {
+    left: -100px;
+    opacity: 0;
+  }
+  100% {
+    left: 90px;
+    opacity: 1;
+  }
+}
+@keyframes right_bot_img_mobile {
+  0% {
+    right: -100px;
+    opacity: 0;
+  }
+  100% {
+    right: 90px;
+    opacity: 1;
+  }
+}
+@keyframes right_top_img_mobile {
+  0% {
+    scale: 0;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
+@keyframes heading_mobile {
+  0% {
+    scale: 0;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
+@keyframes under_nav_mobile {
+  0% {
+    bottom: 10px;
+    opacity: 0;
+  }
+  50% {
+    bottom: 10px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 205px;
+    opacity: 1;
+  }
+}/*# sourceMappingURL=animations.css.map */

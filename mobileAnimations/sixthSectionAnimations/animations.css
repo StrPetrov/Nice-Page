@@ -1,0 +1,34 @@
+@keyframes boxRotate_mobile {
+  0% {
+    opacity: 0;
+    left: -200px;
+    transform: rotate(45deg);
+  }
+  100% {
+    opacity: 1;
+    left: 10%;
+    transform: rotate(0deg);
+  }
+}
+@keyframes scaling_mobile {
+  0% {
+    scale: 0;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
+@keyframes rightTextBox_mobile {
+  0% {
+    scale: 0.5;
+    opacity: 0;
+    right: -300px;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+    right: 10%;
+  }
+}/*# sourceMappingURL=animations.css.map */

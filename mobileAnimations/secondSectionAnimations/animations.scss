@@ -1,0 +1,32 @@
+@keyframes title_mobile {
+    0% {
+        scale: 2;
+        opacity: 0;
+    }
+    100% {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+@keyframes slideFromLeft_mobile {
+    0% {
+        left: -300px;
+        opacity: 0;
+    }
+    100% {
+        left: 10px;
+        opacity: 1;
+    }
+}
+
+@keyframes slideFromRight_mobile {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}

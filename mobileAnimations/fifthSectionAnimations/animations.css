@@ -1,0 +1,56 @@
+@keyframes multicolorLargeCircle_mobile {
+  0% {
+    left: -200px;
+    opacity: 0;
+    scale: 1.5;
+  }
+  100% {
+    left: 220px;
+    opacity: 1;
+    scale: 1;
+  }
+}
+@keyframes diagonal_mobile {
+  0% {
+    opacity: 0;
+    top: -100px;
+    left: 300px;
+  }
+  100% {
+    opacity: 1;
+    top: 230px;
+    left: 50px;
+  }
+}
+@keyframes textBox_mobile {
+  0% {
+    right: -300px;
+    opacity: 0;
+  }
+  100% {
+    right: 70px;
+    opacity: 1;
+  }
+}
+@keyframes fifthSectionSquare_mobile {
+  0% {
+    opacity: 0;
+    left: -150px;
+    transform: rotate(0.8turn);
+  }
+  100% {
+    opacity: 1;
+    left: 70px;
+    transform: rotate(0.1turn);
+  }
+}
+@keyframes fifthSectionLikeDna_mobile {
+  0% {
+    opacity: 0;
+    bottom: -100px;
+  }
+  100% {
+    opacity: 1;
+    bottom: 30px;
+  }
+}/*# sourceMappingURL=animations.css.map */

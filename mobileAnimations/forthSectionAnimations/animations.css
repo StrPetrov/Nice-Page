@@ -1,0 +1,65 @@
+@keyframes multicolorCircle_mobile {
+  0% {
+    left: -150px;
+    opacity: 0;
+  }
+  100% {
+    left: 70px;
+    opacity: 1;
+  }
+}
+@keyframes square_mobile {
+  0% {
+    scale: 1.5;
+    opacity: 0;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
+@keyframes likeDna_mobile {
+  0% {
+    scale: 2;
+    opacity: 0;
+    right: -150px;
+  }
+  50% {
+    scale: 2;
+    opacity: 0;
+    right: -150px;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+    right: 80px;
+  }
+}
+@keyframes digitalDesign_mobile {
+  0% {
+    opacity: 0;
+    left: -350px;
+  }
+  100% {
+    opacity: 1;
+    left: 50px;
+  }
+}
+@keyframes anglePipe_mobile {
+  0% {
+    transform: rotate(140deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+@keyframes donut_mobile {
+  0% {
+    bottom: 0px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 120px;
+    opacity: 1;
+  }
+}/*# sourceMappingURL=animations.css.map */
